@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: rgb(41, 2, 41);
+    height: 100vw;
+}
+
+div {
+    width: 300px;
+    margin: 0 auto;
+    background-image: url(./img/eyes-black.jpg);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+img {
+    border-radius: 50%;
+}
+
+div img:hover {
+    opacity: 0;
+    transition: 2s ease all;
+}
